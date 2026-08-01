@@ -1,0 +1,150 @@
+.experience{
+    max-width:1300px;
+    margin:auto;
+    padding:130px 40px;
+    position:relative;
+    z-index:2;
+}
+
+.experience-title{
+    text-align:center;
+    margin-bottom:90px;
+}
+
+.experience-title span{
+    color:#d946ef;
+    letter-spacing:4px;
+    font-weight:700;
+}
+
+.experience-title h2{
+    font-size:60px;
+    color:white;
+    margin:20px 0;
+}
+
+.experience-title h2 span{
+    background:linear-gradient(90deg,#d946ef,#9333ea);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+}
+
+.experience-title p{
+    color:#bdbdbd;
+    max-width:720px;
+    margin:auto;
+    line-height:1.8;
+    font-size:18px;
+}
+
+.timeline{
+    position:relative;
+    display:flex;
+    flex-direction:column;
+    gap:40px;
+}
+
+.timeline::before{
+    content:"";
+    position:absolute;
+    left:40px;
+    top:0;
+    width:3px;
+    height:100%;
+    background:linear-gradient(#9333ea,#d946ef);
+}
+
+.timeline-card{
+    display:flex;
+    gap:30px;
+    align-items:flex-start;
+}
+
+.timeline-icon{
+    width:80px;
+    height:80px;
+    border-radius:50%;
+    background:linear-gradient(135deg,#9333ea,#d946ef);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:white;
+    font-size:28px;
+    z-index:2;
+    flex-shrink:0;
+}
+
+.timeline-content{
+    flex:1;
+    background:rgba(255,255,255,.05);
+    backdrop-filter:blur(18px);
+    border:1px solid rgba(255,255,255,.08);
+    border-radius:24px;
+    padding:28px;
+    transition:.4s;
+}
+
+.timeline-content:hover{
+    transform:translateY(-6px);
+    border-color:#d946ef;
+    box-shadow:0 0 35px rgba(217,70,239,.25);
+}
+
+.year{
+    color:#d946ef;
+    font-weight:700;
+    font-size:14px;
+}
+
+.timeline-content h3{
+    color:white;
+    margin:10px 0 5px;
+    font-size:28px;
+}
+
+.timeline-content h4{
+    color:#b58cff;
+    margin-bottom:18px;
+}
+
+.timeline-content p{
+    color:#bdbdbd;
+    line-height:1.8;
+}
+
+.timeline-skills{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+    margin-top:22px;
+}
+
+.timeline-skills span{
+    padding:8px 16px;
+    border-radius:30px;
+    background:#9333ea22;
+    color:white;
+    border:1px solid rgba(255,255,255,.08);
+}
+
+@media(max-width:768px){
+
+.timeline::before{
+    left:30px;
+}
+
+.timeline-card{
+    gap:18px;
+}
+
+.timeline-icon{
+    width:60px;
+    height:60px;
+    font-size:22px;
+}
+
+.experience-title h2{
+    font-size:42px;
+}
+
+}

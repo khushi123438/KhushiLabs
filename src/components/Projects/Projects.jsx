@@ -1,0 +1,58 @@
+import "./Projects.css";
+import { motion } from "framer-motion";
+
+import {
+  staggerContainer,
+  cardAnimation,
+  titleAnimation,
+} from "../../animations/motion";
+
+import projects from "./projectData";
+import ProjectCard from "./ProjectCard";
+
+export default function Projects() {
+  return (
+    <section className="projects" id="projects">
+
+      {/* Section Title */}
+
+      <motion.div
+        className="project-title"
+        variants={titleAnimation}
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true, amount: 0.3 }}
+      >
+        <span>MY WORK</span>
+
+        <h2>
+          Featured <span>Projects</span>
+        </h2>
+
+        <p>
+          AI, Machine Learning, Deep Learning, Data Science and
+          Full Stack applications built to solve
+          real-world problems.
+        </p>
+      </motion.div>
+
+      {/* Project Grid */}
+
+      <motion.div
+        className="projects-grid"
+        variants={staggerContainer}
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true, amount: 0.15 }}
+      >
+        {projects.map((project) => (
+          <ProjectCard
+            key={project.id}
+            project={project}
+          />
+        ))}
+      </motion.div>
+
+    </section>
+  );
+}

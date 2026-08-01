@@ -1,0 +1,461 @@
+.contact{
+    max-width:1400px;
+    margin:auto;
+    padding:130px 40px;
+    position:relative;
+    z-index:5;
+    overflow:hidden;
+}
+
+/* ===========================
+   Background Glow
+=========================== */
+
+.contact-glow{
+    position:absolute;
+    width:650px;
+    height:650px;
+    border-radius:50%;
+    background:radial-gradient(circle,
+    rgba(217,70,239,.18),
+    transparent 70%);
+    filter:blur(130px);
+    left:-220px;
+    top:-150px;
+    z-index:-1;
+}
+
+/* ===========================
+   Heading
+=========================== */
+
+.contact-title{
+    text-align:center;
+    margin-bottom:80px;
+}
+
+.contact-title span{
+    color:#d946ef;
+    letter-spacing:4px;
+    font-weight:700;
+}
+
+.contact-title h2{
+    margin:18px 0;
+    font-size:64px;
+    color:white;
+    font-weight:800;
+}
+
+.contact-title h2 span{
+    background:linear-gradient(
+    90deg,
+    #fff,
+    #d946ef,
+    #9333ea
+    );
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+}
+
+.contact-title p{
+    max-width:720px;
+    margin:auto;
+    color:#b7b7c5;
+    line-height:1.9;
+    font-size:18px;
+}
+
+/* ===========================
+   Layout
+=========================== */
+
+.contact-container{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:50px;
+    align-items:start;
+}
+
+/* ===========================
+   Glass Card
+=========================== */
+
+.contact-info,
+.contact-form{
+
+    background:rgba(255,255,255,.05);
+
+    backdrop-filter:blur(22px);
+
+    border:1px solid rgba(255,255,255,.08);
+
+    border-radius:30px;
+
+    padding:45px;
+
+    position:relative;
+
+    overflow:hidden;
+
+    transition:.4s;
+
+}
+
+.contact-info:hover,
+.contact-form:hover{
+
+    border-color:#d946ef;
+
+    box-shadow:
+    0 20px 60px rgba(0,0,0,.35),
+    0 0 35px rgba(217,70,239,.25);
+
+}
+
+/* ===========================
+   Left
+=========================== */
+
+.contact-info h3{
+
+    color:#d946ef;
+
+    font-size:36px;
+
+    margin-bottom:20px;
+
+}
+
+.contact-info p{
+
+    color:#bdbdbd;
+
+    line-height:1.9;
+
+    margin-bottom:40px;
+
+}
+
+.contact-info strong{
+
+    color:#fff;
+
+}
+
+/* ===========================
+   Contact Items
+=========================== */
+
+.contact-items{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:20px;
+
+    margin-bottom:45px;
+
+}
+
+.contact-items div{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:18px;
+
+    padding:16px 20px;
+
+    border-radius:18px;
+
+    background:rgba(255,255,255,.04);
+
+    transition:.35s;
+
+}
+
+.contact-items div:hover{
+
+    transform:translateX(10px);
+
+    background:rgba(255,255,255,.08);
+
+}
+
+.contact-items svg{
+
+    color:#d946ef;
+
+    font-size:22px;
+
+}
+
+.contact-items span{
+
+    color:white;
+
+}
+
+/* ===========================
+   Social
+=========================== */
+
+.contact-social{
+
+    display:flex;
+
+    gap:18px;
+
+}
+
+.contact-social a{
+
+    width:56px;
+
+    height:56px;
+
+    border-radius:18px;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    background:rgba(255,255,255,.05);
+
+    border:1px solid rgba(255,255,255,.08);
+
+    color:white;
+
+    font-size:22px;
+
+    transition:.35s;
+
+}
+
+.contact-social a:hover{
+
+    transform:translateY(-8px);
+
+    background:linear-gradient(
+    135deg,
+    #9333ea,
+    #d946ef
+    );
+
+}
+
+/* ===========================
+   Form
+=========================== */
+
+.contact-form{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:22px;
+
+}
+
+.contact-form input,
+.contact-form textarea{
+
+    width:100%;
+
+    padding:18px 20px;
+
+    background:rgba(255,255,255,.04);
+
+    border:1px solid rgba(255,255,255,.08);
+
+    border-radius:16px;
+
+    color:white;
+
+    font-size:16px;
+
+    outline:none;
+
+    transition:.35s;
+
+}
+
+.contact-form textarea{
+
+    resize:none;
+
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder{
+
+    color:#8d8da1;
+
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus{
+
+    border-color:#d946ef;
+
+    box-shadow:0 0 20px rgba(217,70,239,.2);
+
+}
+
+/* ===========================
+   Button
+=========================== */
+
+.contact-form button{
+
+    margin-top:10px;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    gap:14px;
+
+    padding:18px;
+
+    border:none;
+
+    cursor:pointer;
+
+    border-radius:18px;
+
+    font-size:17px;
+
+    font-weight:600;
+
+    color:white;
+
+    background:linear-gradient(
+    135deg,
+    #9333ea,
+    #d946ef
+    );
+
+    transition:.35s;
+
+}
+
+.contact-form button:hover{
+
+    transform:translateY(-5px);
+
+    box-shadow:0 0 35px rgba(217,70,239,.35);
+
+}
+
+/* ===========================
+   Floating Shine
+=========================== */
+
+.contact-info::before,
+.contact-form::before{
+
+    content:"";
+
+    position:absolute;
+
+    width:180px;
+
+    height:180px;
+
+    background:rgba(255,255,255,.08);
+
+    border-radius:50%;
+
+    filter:blur(80px);
+
+    top:-60px;
+
+    right:-60px;
+
+}
+
+/* ===========================
+   Responsive
+=========================== */
+
+@media(max-width:1000px){
+
+.contact-container{
+
+grid-template-columns:1fr;
+
+}
+
+}
+
+@media(max-width:768px){
+
+.contact{
+
+padding:100px 20px;
+
+}
+
+.contact-title h2{
+
+font-size:46px;
+
+}
+
+.contact-info,
+.contact-form{
+
+padding:30px;
+
+}
+
+.contact-info h3{
+
+font-size:28px;
+
+}
+
+}
+
+@media(max-width:500px){
+
+.contact-title h2{
+
+font-size:36px;
+
+}
+
+.contact-title p{
+
+font-size:16px;
+
+}
+
+.contact-social{
+
+justify-content:center;
+
+}
+
+.contact-items div{
+
+padding:14px;
+
+}
+
+}
+
+.contact-info p strong{
+    color: #fff;
+    font-weight: 700;
+    margin: 0 2px;
+}

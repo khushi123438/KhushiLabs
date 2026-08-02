@@ -9,7 +9,7 @@ import ii from "../../assets/ii.png";
 
 const projects = [
   {
-    id: v,
+    id: 1,
     title: "NexHire AI",
    category: ["AI"],
 

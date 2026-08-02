@@ -6,7 +6,7 @@ const certificates = [
     issuer: "Google",
     date: "Jun 2026",
     category: "AI",
-    featured: true,
+    featured: false,
     logo: "🟢",
     skills: [
       "Artificial Intelligence",
@@ -22,7 +22,7 @@ const certificates = [
     issuer: "DeepLearning.AI",
     date: "May 2026",
     category: "Machine Learning",
-    featured: true,
+    featured: false,
     logo: "🧠",
     skills: [
       "Machine Learning",

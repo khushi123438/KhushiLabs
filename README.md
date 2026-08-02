@@ -36,10 +36,6 @@ A modern, responsive, and interactive personal portfolio built with **React**, *
 
 🔗 https://khushidev.vercel.app
 
-## 📸 Preview
-
-<img width="100%" alt="Portfolio Preview" src="preview.png">
-
 ## ⚙️ Installation
 
 Clone the repository:

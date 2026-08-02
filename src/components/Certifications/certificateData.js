@@ -6,7 +6,7 @@ const certificates = [
     issuer: "Google",
     date: "Jun 2026",
     category: "AI",
-    featured: false,
+    featured: true,
     logo: "🟢",
     skills: [
       "Artificial Intelligence",
@@ -22,7 +22,7 @@ const certificates = [
     issuer: "DeepLearning.AI",
     date: "May 2026",
     category: "Machine Learning",
-    featured:false,
+    featured: true,
     logo: "🧠",
     skills: [
       "Machine Learning",
@@ -96,11 +96,11 @@ const certificates = [
 
   {
     id: 7,
-    title: "AWS Cloud Practitioner Essentials - Training",
+    title: "AWS Cloud - Training",
     issuer: "Amazon Web Services",
     date: "Apr 2026",
     category: "Cloud",
-    featured: true,
+    featured: false,
     logo: "☁️",
     skills: [
       "AWS",

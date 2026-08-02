@@ -86,7 +86,6 @@ category: ["Full Stack"],
     image: viii,
 
     tech: [
-      "React",
       "JavaScript",
       "Node.js",
       "MongoDB",
@@ -110,8 +109,7 @@ category: ["Full Stack"],
     tech: [
       "Python",
       "Scikit-Learn",
-      "React",
-      "Node.js",
+      "JavaScript",
     ],
 
     github: "https://github.com/khushi123438/PlacementPro_AI",
@@ -155,7 +153,6 @@ category: ["Full Stack"],
     "Keras",
     "CNN",
     "Flask",
-    "React",
   ],
 
   github: "https://github.com/khushi123438/AI-Image-Classifier",

@@ -1,16 +1,96 @@
-# React + Vite
+# 🌐 Khushi.dev – Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive, and interactive personal portfolio built with **React**, **Vite**, and **Tailwind CSS** to showcase my projects, technical skills, certifications, and achievements.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Modern UI with smooth animations
+- Fully responsive design
+- Project showcase with GitHub links
+- Skills categorized by domain
+- Certifications section with credential links
+- Education & achievements
+- Contact section with social media links
+- Fast performance with Vite
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React.js
+- Vite
+- JavaScript (ES6+)
+- Tailwind CSS
+- Framer Motion
+- React Icons
 
-## Expanding the ESLint configuration
+## 📂 Sections
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Home
+- About
+- Skills
+- Projects
+- Certifications
+- Education
+- Contact
+
+## 🚀 Live Demo
+
+🔗 https://khushidev.vercel.app
+
+## 📸 Preview
+
+<img width="100%" alt="Portfolio Preview" src="preview.png">
+
+## ⚙️ Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/khushi123438/KhushiLabs.git
+```
+
+Navigate to the project directory:
+
+```bash
+cd KhushiLabs
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+Build for production:
+
+```bash
+npm run build
+```
+
+## 📁 Folder Structure
+
+```
+src/
+├── assets/
+├── components/
+├── pages/
+├── data/
+├── styles/
+└── App.jsx
+```
+
+## 👩‍💻 Author
+
+**Khushi Pandey**
+
+- GitHub: https://github.com/khushi123438
+- LinkedIn: https://www.linkedin.com/in/khushi-pandey-12a104343
+
+---
+
+⭐ If you like this project, consider giving it a star.

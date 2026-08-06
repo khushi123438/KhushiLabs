@@ -43,8 +43,8 @@ border-radius:50%;
 }
 
 .profile-card{
-
-width:320px;
+  width:100%;
+    max-width:320px;
 
 height:400px;
 
@@ -375,7 +375,8 @@ letter-spacing:1px;
 }
 
 .profile-bottom-card{
-    width:320px;
+    width:100%;
+    max-width:320px;
 
     display:flex;
     justify-content:space-between;
@@ -420,7 +421,8 @@ letter-spacing:1px;
 
 .status-card{
 
-    width:360px;
+    width:100%;
+    max-width:360px;
 
     padding:22px;
 
@@ -525,6 +527,237 @@ letter-spacing:1px;
     100%{
         transform:scale(.9);
         opacity:.8;
+    }
+
+}
+
+/* =========================
+   Large Tablets
+========================= */
+@media (max-width: 1024px){
+
+    .about{
+        grid-template-columns:1fr;
+        gap:60px;
+        text-align:center;
+        padding:90px 30px;
+    }
+
+    .about-left,
+    .about-right{
+        width:100%;
+    }
+
+    .profile-wrapper{
+        width:100%;
+    }
+
+    .profile-card,
+    .profile-bottom-card,
+    .status-card{
+        width:min(100%,380px);
+    }
+
+    .about-grid{
+        grid-template-columns:repeat(2,1fr);
+    }
+
+    .about-btn{
+        margin:auto;
+    }
+
+    .roles,
+    .status-body{
+        justify-content:center;
+    }
+
+    .about-right h2{
+        font-size:40px;
+    }
+
+}
+
+/* =========================
+   Tablets
+========================= */
+@media (max-width:768px){
+
+    .about{
+        padding:80px 22px;
+        gap:50px;
+    }
+
+    .profile-card{
+        width:100%;
+        max-width:320px;
+        height:380px;
+    }
+
+    .profile-bottom-card{
+        width:100%;
+        max-width:320px;
+    }
+
+    .status-card{
+        width:100%;
+        max-width:360px;
+        margin:auto;
+    }
+
+    .about-right h2{
+        font-size:34px;
+    }
+
+    .about-right p{
+        font-size:16px;
+    }
+
+    .about-grid{
+        grid-template-columns:1fr;
+    }
+
+    .about-box{
+        text-align:left;
+    }
+
+    .about-glow{
+        width:260px;
+        height:260px;
+        filter:blur(80px);
+    }
+
+}
+
+/* =========================
+   Mobile
+========================= */
+@media (max-width:480px){
+
+    .about{
+        padding:70px 18px;
+        gap:40px;
+    }
+
+    .profile-card{
+        height:350px;
+        border-radius:22px;
+    }
+
+    .profile-circle{
+        width:95px;
+        height:95px;
+        font-size:42px;
+        margin-bottom:18px;
+    }
+
+    .profile-card h2{
+        font-size:24px;
+    }
+
+    .profile-subtitle{
+        font-size:13px;
+    }
+
+    .profile-bottom-card{
+        padding:16px;
+    }
+
+    .bottom-item h3{
+        font-size:22px;
+    }
+
+    .bottom-item p{
+        font-size:12px;
+    }
+
+    .divider{
+        height:38px;
+    }
+
+    .status-card{
+        padding:18px;
+    }
+
+    .status-header{
+        font-size:15px;
+    }
+
+    .role-chip{
+        padding:8px 14px;
+        font-size:13px;
+    }
+
+    .about-right h2{
+        font-size:28px;
+    }
+
+    .about-right p{
+        font-size:15px;
+        line-height:1.7;
+    }
+
+    .about-box{
+        padding:20px;
+    }
+
+    .about-box svg{
+        font-size:28px;
+    }
+
+    .about-btn{
+        width:100%;
+        justify-content:center;
+        padding:15px;
+    }
+
+    .roles{
+        justify-content:center;
+    }
+
+    .roles span{
+        font-size:13px;
+        padding:8px 14px;
+    }
+
+    .about-glow{
+        width:220px;
+        height:220px;
+        filter:blur(70px);
+    }
+
+}
+
+/* =========================
+   Small Phones
+========================= */
+@media (max-width:360px){
+
+    .about{
+        padding:60px 14px;
+    }
+
+    .profile-card{
+        height:330px;
+    }
+
+    .profile-circle{
+        width:85px;
+        height:85px;
+        font-size:36px;
+    }
+
+    .about-right h2{
+        font-size:24px;
+    }
+
+    .bottom-item h3{
+        font-size:20px;
+    }
+
+    .role-chip,
+    .roles span{
+        width:100%;
+        text-align:center;
     }
 
 }

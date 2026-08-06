@@ -115,8 +115,7 @@ Let's Build Something Amazing
 
 <span>
 
-yourmail@gmail.com
-
+kp8238977@gmail.com
 </span>
 
 </div>
@@ -127,7 +126,7 @@ yourmail@gmail.com
 
 <span>
 
-+91 XXXXX XXXXX
++91 9918458742
 
 </span>
 

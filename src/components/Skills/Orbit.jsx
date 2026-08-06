@@ -1,5 +1,6 @@
 import "./Orbit.css";
 import { motion } from "framer-motion";
+import { useEffect, useState } from "react";
 
 import {
   FaReact,
@@ -34,9 +35,34 @@ const orbitIcons = [
   { icon: <FaJava />, color: "#F89820", angle: 330, label: "Java" },
 ];
 
-const radius = 180;
 
 export default function Orbit() {
+    const [radius, setRadius] = useState(180);
+
+  useEffect(() => {
+
+    const updateRadius = () => {
+
+      if (window.innerWidth <= 480) {
+        setRadius(110);
+      } else if (window.innerWidth <= 768) {
+        setRadius(140);
+      } else if (window.innerWidth <= 1024) {
+        setRadius(160);
+      } else {
+        setRadius(180);
+      }
+
+    };
+
+    updateRadius();
+
+    window.addEventListener("resize", updateRadius);
+
+    return () => window.removeEventListener("resize", updateRadius);
+
+  }, []);
+
   return (
     <div className="orbit-wrapper">
 

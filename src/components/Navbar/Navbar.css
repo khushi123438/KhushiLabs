@@ -193,3 +193,100 @@ display:block;
 }
 
 }
+
+@media (max-width:900px){
+
+.navbar{
+
+    top:10px;          /* 25px -> 10px */
+    height:65px;       /* 75px -> 65px */
+
+    width:95%;
+
+    padding:0 20px;
+
+    border-radius:18px;
+
+}
+
+.logo{
+
+    font-size:22px;
+
+}
+
+.nav{
+
+    position:absolute;
+
+    top:75px;          /* navbar ke just neeche */
+
+    left:0;
+
+    width:100%;
+
+    background:#12071f;
+
+    border-radius:18px;
+
+    padding:20px;
+
+    display:none;
+
+    flex-direction:column;
+
+    gap:20px;
+
+}
+
+.nav.active{
+
+    display:flex;
+
+}
+
+.menu{
+
+    display:block;
+
+    font-size:28px;
+
+}
+
+}
+
+@media (max-width:480px){
+
+.navbar{
+
+    top:8px;
+
+    height:60px;
+
+    padding:0 16px;
+
+}
+
+.logo{
+
+    font-size:18px;
+
+}
+
+.menu{
+
+    font-size:24px;
+
+}
+
+.nav{
+
+    top:68px;
+
+    padding:18px;
+
+    gap:18px;
+
+}
+
+}

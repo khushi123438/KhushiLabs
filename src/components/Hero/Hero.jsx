@@ -102,7 +102,9 @@ export default function Hero() {
 
 
 
-        <FloatingCards />
+       <div className="floating-cards-wrapper">
+    <FloatingCards />
+</div>
 
     
       </div>

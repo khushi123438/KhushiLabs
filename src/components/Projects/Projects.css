@@ -13,7 +13,7 @@
     align-items:center;
 }
 
-.project-title>span:first-child{
+.project-title span:first-child{
     color:#d946ef;
     letter-spacing:4px;
     font-size:14px;
@@ -87,6 +87,19 @@
     0 20px 60px rgba(0,0,0,.35),
     0 0 45px rgba(217,70,239,.25);
 }
+.project-image{
+    width:100%;
+    aspect-ratio:16/9;
+    overflow:hidden;
+    border-radius:22px 22px 0 0;
+}
+
+.project-image img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    object-position:top;
+} 
 .project-image{
     width:100%;
     height:450px;
@@ -202,5 +215,271 @@ grid-template-columns:1fr;
 cursor:pointer;
 
 transition:.35s;
+
+}
+
+/* =========================
+   Laptop (≤1024px)
+========================= */
+@media (max-width:1024px){
+
+.projects{
+    padding:100px 30px;
+}
+
+.project-title{
+    margin-bottom:60px;
+}
+
+.project-title h2{
+    font-size:52px;
+}
+
+.project-title p{
+    max-width:650px;
+    font-size:17px;
+}
+
+.projects-grid{
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+    gap:28px;
+}
+.project-image{
+    width:100%;
+    height:450px;
+    overflow:hidden;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:linear-gradient(135deg,#2b1748,#3a1d67);
+}
+
+.project-image img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    object-position:center;
+    transition:all .4s ease;
+}
+
+.project-content{
+    padding:24px;
+}
+
+.project-content h3{
+    font-size:24px;
+}
+
+}
+
+/* =========================
+   Tablet (≤768px)
+========================= */
+@media (max-width:768px){
+
+.projects{
+    padding:80px 20px;
+}
+
+.project-title{
+    margin-bottom:45px;
+}
+
+.project-title h2{
+    font-size:40px;
+}
+
+.project-title p{
+    font-size:16px;
+    line-height:1.7;
+}
+
+.projects-grid{
+    grid-template-columns:1fr;
+    gap:24px;
+}
+
+.project-card{
+    border-radius:20px;
+}
+
+.project-image{
+    height:280px;
+}
+
+.project-content{
+    padding:22px;
+}
+
+.project-content h3{
+    font-size:22px;
+}
+
+.project-content p{
+    font-size:15px;
+}
+
+.tech-stack{
+    gap:8px;
+    margin:22px 0;
+}
+
+.tech-stack span{
+    padding:8px 14px;
+    font-size:12px;
+}
+
+.project-links{
+    gap:12px;
+}
+
+.project-links a{
+    padding:13px;
+    font-size:14px;
+}
+
+}
+
+/* =========================
+   Mobile (≤480px)
+========================= */
+@media (max-width:480px){
+
+.projects{
+    padding:70px 16px;
+}
+
+.project-title{
+    margin-bottom:35px;
+}
+
+.project-title span:first-child{
+    font-size:12px;
+    letter-spacing:3px;
+}
+
+.project-title h2{
+    font-size:32px;
+}
+
+.project-title p{
+    font-size:14px;
+    margin-top:18px;
+}
+
+.project-card{
+    border-radius:18px;
+}
+.project-image{
+    width:100%;
+    height:450px;
+    overflow:hidden;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:linear-gradient(135deg,#2b1748,#3a1d67);
+}
+
+.project-image img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    object-position:center;
+    transition:all .4s ease;
+}
+
+.project-content{
+    padding:18px;
+}
+
+.category{
+    font-size:11px;
+    padding:6px 12px;
+}
+
+.project-content h3{
+    font-size:20px;
+    margin-bottom:10px;
+}
+
+.project-content p{
+    font-size:14px;
+    line-height:1.6;
+}
+
+.tech-stack{
+    gap:8px;
+    margin:18px 0;
+}
+
+.tech-stack span{
+    font-size:11px;
+    padding:7px 12px;
+}
+
+.project-links{
+    flex-direction:column;
+    gap:10px;
+}
+
+.project-links a{
+    width:100%;
+    padding:12px;
+    font-size:14px;
+}
+
+}
+
+/* =========================
+   Small Phones (≤360px)
+========================= */
+@media (max-width:360px){
+
+.projects{
+    padding:60px 14px;
+}
+
+.project-title h2{
+    font-size:28px;
+}
+
+.project-title p{
+    font-size:13px;
+}
+.project-image{
+    width:100%;
+    height:450px;
+    overflow:hidden;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:linear-gradient(135deg,#2b1748,#3a1d67);
+}
+
+.project-image img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    object-position:center;
+    transition:all .4s ease;
+}
+
+.project-content{
+    padding:16px;
+}
+
+.project-content h3{
+    font-size:18px;
+}
+
+.tech-stack span{
+    font-size:10px;
+    padding:6px 10px;
+}
+
+.project-links a{
+    font-size:13px;
+    padding:11px;
+}
 
 }

@@ -17,16 +17,23 @@ export default function Projects() {
       {/* Section Title */}
 
       <motion.div
-        className="project-title"
-        variants={titleAnimation}
-        initial="hidden"
-        whileInView="visible"
-        viewport={{ once: true, amount: 0.3 }}
+        className="cert-heading"
+        initial={{ opacity: 0, y: 40 }}
+        whileInView={{
+          opacity: 1,
+          y: 0,
+        }}
+        transition={{ duration: .7 }}
+        viewport={{ once: true }}
       >
+
         <span>MY WORK</span>
 
         <h2>
-          Featured <span>Projects</span>
+
+         Featured
+          <span> Projects</span>
+
         </h2>
 
         <p>

@@ -17,7 +17,7 @@ export default function Projects() {
       {/* Section Title */}
 
        <motion.div
-        className="project-title"
+        className="cert-heading"
         initial={{ opacity: 0, y: 40 }}
         whileInView={{
           opacity: 1,

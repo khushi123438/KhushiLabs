@@ -12,31 +12,45 @@
 }
 
 .cert-heading span{
-    color:#d946ef;
-    font-weight:700;
-    letter-spacing:4px;
-    text-transform:uppercase;
+   
+letter-spacing:4px;
+
+color:#d946ef;
+
+font-weight:700;
 }
 
 .cert-heading h2{
-    font-size:64px;
-    color:white;
-    margin:18px 0;
-    font-weight:800;
+   
+font-size:60px;
+
+margin:20px 0;
+
+color:white;
+
 }
 
 .cert-heading h2 span{
-    background:linear-gradient(90deg,#fff,#d946ef,#9333ea);
-    -webkit-background-clip:text;
-    -webkit-text-fill-color:transparent;
+  
+background:linear-gradient(90deg,#d946ef,#9333ea);
+
+-webkit-background-clip:text;
+
+-webkit-text-fill-color:transparent;
 }
 
 .cert-heading p{
-    max-width:760px;
-    margin:auto;
-    color:#a8a8b3;
-    line-height:1.9;
-    font-size:18px;
+  
+max-width:700px;
+
+margin:auto;
+
+line-height:1.8;
+
+color:#bdbdbd;
+
+font-size:18px;
+
 }
 
 .projects-grid{

@@ -25,6 +25,7 @@ const projects = [
       "Express.js",
       "MongoDB",
       "GenAI",
+      "SppechAI",
     ],
 
     github: "https://github.com/khushi123438/NexHire-AI",
@@ -53,28 +54,29 @@ const projects = [
    
   },
 
-  {
-    id: 3,
-    title: "NextStepAI",
-   category: ["AI"],
+ {
+  id: 3,
+  title: "RakshakAI",
+  category: ["AI"],
 
-    description:
-      "AI-powered career assistant that analyzes user skills, recommends personalized career paths, suggests learning roadmaps, and helps students prepare for internships and placements.",
+  description:
+    "Multimodal AI-based disaster intelligence system that analyzes satellite imagery, environmental data, and emergency reports to predict disaster risks, provide real-time situational awareness, and support intelligent response decisions.",
 
-    image: vii,
+  image: vii,
 
-    tech: [
-      "React",
-      "Node.js",
-      "MongoDB",
-      "Python",
-      "Machine Learning",
-      "GenAI",
-    ],
+  tech: [
+    "React",
+    "Node.js",
+    "Python",
+    "Machine Learning",
+    "Deep Learning",
+    "Computer Vision",
+    "NLP",
+    "GenAI",
+  ],
 
-    github: "https://github.com/khushi123438/NextStepAI",
-   
-  },
+  github: "https://github.com/khushi123438/NyaySetu/Rakshak-AI",
+},
 
   {
     id: 4,

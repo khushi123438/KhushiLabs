@@ -6,12 +6,13 @@ import vii from "../../assets/vii.png";
 import viii from "../../assets/viii.png";
 import i from "../../assets/i.png";
 import ii from "../../assets/ii.png";
+import ix from "../../assets/ix.png";
 
 const projects = [
   {
     id: 1,
     title: "NexHire AI",
-   category: ["AI"],
+   category: ["FullStack", "AI"],
 
     description:
       "AI-powered interview coach platform that conducts voice interviews, generates resume-based questions, evaluates performance, and provides personalized recommendations for improvement.",
@@ -23,8 +24,7 @@ const projects = [
       "Node.js",
       "Express.js",
       "MongoDB",
-      "Python",
-      "LLMs",
+      "GenAI",
     ],
 
     github: "https://github.com/khushi123438/NexHire-AI",
@@ -178,7 +178,28 @@ category: ["Full Stack"],
   ],
 
   github: "https://github.com/khushi123438/Handwritten-Digit-Classifier",
-}
+},
+
+{
+  id: 9,
+  title: "Sentiment AI",
+  category: ["AI", "Machine Learning", "NLP"],
+
+  description:
+    "AI-powered sentiment analysis system that analyzes user text, identifies emotional sentiment, and classifies feedback into positive, negative, or neutral categories using natural language processing and machine learning techniques.",
+
+  image: ix,
+
+  tech: [
+    "Python",
+    "Scikit-Learn",
+    "NLP",
+    "Pandas",
+    "NumPy",
+  ],
+
+  github: "https://github.com/khushi123438/Sentiment-AI",
+},
 ];
 
 export default projects;

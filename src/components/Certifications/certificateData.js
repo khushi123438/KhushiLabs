@@ -315,8 +315,8 @@ const certificates = [
      "Regression",
      "Classification"
     ],
-    credential: "/certificates/Machine Learning.pdf"
-  }
+    credential: "/certificates/Infosys-ML.pdf"
+  },
 
 ];
 

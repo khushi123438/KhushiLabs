@@ -57,9 +57,15 @@ export default function Hero() {
             </button>
           </a>
 
-          <button className="secondary">
-            Download Resume
-          </button>
+          <a
+  href="/Khushi_Pandey_CV.pdf"
+  download="Khushi_Pandey_CV.pdf"
+  className="resume-download"
+>
+  <button className="secondary">
+    Download Resume
+  </button>
+</a>
 
         </div>
 

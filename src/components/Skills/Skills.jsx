@@ -33,7 +33,7 @@ const skillCategories = [
       "Node.js",
       "Express.js",
       "MongoDB",
-      "Firebase",
+      "Bcrypt",
       "REST API",
       "JWT Authentication"
     ]
@@ -71,7 +71,8 @@ const skillCategories = [
       "VS Code",
       "Postman",
       "Google Colab",
-      "Docker"
+      "Docker",
+      "Vercel"
     ]
   },
 

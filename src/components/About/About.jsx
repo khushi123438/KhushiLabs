@@ -218,14 +218,17 @@ export default function About() {
           </div>
 
         </div>
-
-        <button className="about-btn">
-
-          Let's Build Together
-
-          <FaArrowRight />
-
-        </button>
+<button
+  className="about-btn"
+  onClick={() =>
+    document.getElementById("contact").scrollIntoView({
+      behavior: "smooth",
+    })
+  }
+>
+  Let's Build Together
+  <FaArrowRight />
+</button>
 
       </motion.div>
 
